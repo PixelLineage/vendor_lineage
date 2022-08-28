@@ -248,7 +248,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
-    NetworkStackOverlay
+    NetworkStackOverlay \
+    ThemedIconsOverlay
 
 # Translations
 CUSTOM_LOCALES += \
