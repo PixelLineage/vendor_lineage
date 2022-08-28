@@ -275,7 +275,8 @@ PRODUCT_PACKAGES += \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay \
-    PermissionControllerOverlay
+    PermissionControllerOverlay \
+    ThemedIconsOverlay
 
 # Translations
 CUSTOM_LOCALES += \
