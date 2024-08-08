@@ -272,14 +272,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.enable_transaction_tracing=false
 endif
 
-# Audio files
-$(call inherit-product, vendor/lineage/audio/audio.mk)
-
-# SetupWizard
-PRODUCT_PRODUCT_PROPERTIES += \
-    setupwizard.theme=glif_v4 \
-    setupwizard.feature.day_night_mode_enabled=true
-
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay/no-rro
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/lineage/overlay/common \
@@ -304,9 +296,23 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/crowdin/overlay
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/lineage/build/target/product/security/lineage
 
-include vendor/lineage/config/version.mk
+# Pixel Clocks
+$(call inherit-product, vendor/pixel/clocks/products/clocks.mk)
 
--include vendor/lineage-priv/keys/keys.mk
+# Pixel Launcher
+$(call inherit-product, vendor/pixel/launcher/products/launcher.mk)
+
+# Pixel GMS
+$(call inherit-product, vendor/pixel/gms/products/gms.mk)
+
+# Pixel SoundPicker
+$(call inherit-product, vendor/pixel/sounds/products/sounds.mk)
+
+# Pixel ThemePicker
+$(call inherit-product, vendor/pixel/themepicker/products/themepicker.mk)
+
+include vendor/lineage/config/version.mk
+include vendor/lineage-priv/keys/keys.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
