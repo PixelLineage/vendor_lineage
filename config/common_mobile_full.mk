@@ -21,12 +21,6 @@ PRODUCT_PACKAGES += \
     unrar \
     zstd
 
-# Fonts
-PRODUCT_PACKAGES += \
-    fonts_customization.xml \
-    FontLatoOverlay \
-    FontRubikOverlay
-
 # Clocks
 PRODUCT_PACKAGES += \
     SystemUIClocks-BigNum \
