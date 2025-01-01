@@ -29,8 +29,7 @@ PRODUCT_PACKAGES += \
     SystemUIClocks-Growth \
     SystemUIClocks-Inflate \
     SystemUIClocks-Metro \
-    SystemUIClocks-NumOverlap \
-    SystemUIClocks-Weather
+    SystemUIClocks-NumOverlap
 
 # Include Lineage LatinIME dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/dictionaries
