@@ -42,4 +42,7 @@
     <component-override package="com.google.android.setupwizard">
         <component class=".update.OtaUpdateActivity" enabled="false" />
     </component-override>
+    <component-override package="com.google.android.settings.intelligence">
+        <component class=".modules.battery.impl.chargingoptimization.ChargingOptimizationActivity" enabled="false" />
+    </component-override>
 </config>
