@@ -302,5 +302,8 @@ $(call inherit-product, vendor/gms/products/gms.mk)
 include vendor/lineage/config/version.mk
 include vendor/lineage-priv/keys/keys.mk
 
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/permissions/privapp-permissions-custom.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-custom.xml
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
