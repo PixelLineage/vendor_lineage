@@ -211,17 +211,4 @@
         <item>device_personalization_services/OverviewFederatedAnalytics__enable_non_synthetic_logs=false</item>
         <item>device_personalization_services/Logging__enable_aiai_clearcut_logging=false</item>
     </string-array>
-
-    <!-- Package name and fully-qualified class name for the wallpaper picker activity. -->
-    <string name="config_styles_and_wallpaper_picker_action">android.intent.action.SET_WALLPAPER</string>
-    <string name="config_styles_and_wallpaper_picker_class">com.android.customization.picker.CustomizationPickerActivity</string>
-    <string name="config_wallpaper_picker_action">android.intent.action.MAIN</string>
-    <string name="config_wallpaper_picker_class">com.google.android.apps.wallpaper.picker.CategoryPickerActivity</string>
-    <string name="config_wallpaper_picker_package">com.google.android.apps.wallpaper</string>
-
-    <!-- Settings intelligence package name -->
-    <string name="config_settingsintelligence_log_action">com.google.android.settings.intelligence.contextualcards.CARD_INTERACTION_RECEIVER</string>
-    
-    <!-- Settings intelligence interaction log intent action -->
-    <string name="config_settingsintelligence_package_name">com.google.android.settings.intelligence</string>
 </resources>
