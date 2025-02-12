@@ -21,16 +21,11 @@ PRODUCT_PACKAGES += \
     unrar \
     zstd
 
-# Clocks
+# Fonts
 PRODUCT_PACKAGES += \
-    SystemUIClocks-BigNum \
-    SystemUIClocks-Calligraphy \
-    SystemUIClocks-Flex \
-    SystemUIClocks-Growth \
-    SystemUIClocks-Inflate \
-    SystemUIClocks-Metro \
-    SystemUIClocks-NumOverlap \
-    SystemUIClocks-Weather
+    fonts_customization.xml \
+    FontLatoOverlay \
+    FontRubikOverlay
 
 # Include Lineage LatinIME dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/dictionaries
