@@ -265,8 +265,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
-    NetworkStackOverlay \
-    ThemedIconsOverlay
+    NetworkStackOverlay
 
 # Translations
 CUSTOM_LOCALES += \
