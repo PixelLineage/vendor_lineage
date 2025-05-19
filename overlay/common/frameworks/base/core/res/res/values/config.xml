@@ -174,6 +174,11 @@
 
     <!-- Define device configs on boot -->
     <string-array name="global_device_configs_override">
+        <!-- Enable app cloning  -->
+        <item>app_cloning/cloned_apps_enabled=true</item>
+        <item>app_cloning/delete_all_app_clones_enabled=true</item>
+        <item>app_cloning/enable_app_cloning_building_blocks=true</item>
+
         <!-- Globally enable the new photo picker -->
         <item>storage_native_boot/take_over_get_content=true</item>
 
