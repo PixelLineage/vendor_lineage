@@ -280,8 +280,7 @@ PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
     NetworkStackOverlay \
     PermissionControllerOverlay \
-    ThemedIconsOverlay \
-    PixelLauncherNavbarOverlay
+    ThemedIconsOverlay
 
 # Translations
 CUSTOM_LOCALES += \
