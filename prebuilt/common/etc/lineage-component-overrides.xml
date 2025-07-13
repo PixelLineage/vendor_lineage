@@ -17,9 +17,16 @@
     <component-override package="com.google.android.as">
         <component class=".ambientmusic.history.HistoryContentProvider" enabled="false" />
         <component class=".ambientmusic.history.HistoryActivity" enabled="false" />
+        <component class=".ambientmusic.history.HistoryGarbageCollector" enabled="false" />
+        <component class=".ambientmusic.history.AddShortcutActivity" enabled="false" />
         <component class=".ambientmusic.AmbientMusicSettingsActivity" enabled="false" />
         <component class=".ambientmusic.AmbientMusicNotificationsSettingsActivity" enabled="false" />
         <component class=".ambientmusic.AmbientMusicSetupWizardActivity" enabled="false" />
+        <component class=".ambientmusic.AmbientMusicDetectorReceiver" enabled="false" />
+        <component class=".ambientmusic.AmbientMusicDetectorService" enabled="false" />
+        <component class=".ambientmusic.InternalBroadcastReceiver" enabled="false" />
+        <component class=".ambientmusic.reload.ModelReloadService" enabled="false" />
+        <component class=".ambientmusic.favorites.FavoritesReceiver" enabled="false" />
     </component-override>
     <component-override package="com.android.vending">
         <component class=".systemupdateactivity.SettingsSecurityEntryPoint" enabled="false" />
