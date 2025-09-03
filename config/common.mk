@@ -305,6 +305,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/crowdin/overlay
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/lineage/build/target/product/security/lineage
 
+# Twemoji
+PRODUCT_COPY_FILES += \
+    vendor/lineage/fonts/Twemoji.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/NotoColorEmoji.ttf
+
 # GMS flag
 WITH_GMS := true
 
