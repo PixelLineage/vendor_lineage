@@ -45,6 +45,8 @@
         <component class=".update.SystemUpdateGcmTaskService" enabled="false" />
         <component class=".update.SystemUpdatePersistentListenerService" enabled="false" />
         <component class=".update.SystemUpdateService" enabled="false" />
+        <component class=".fonts.provider.FontsProvider" enabled="false" />
+        <component class=".fonts.update.UpdateSchedulerService" enabled="false" />
     </component-override>
     <component-override package="com.google.android.setupwizard">
         <component class=".update.OtaUpdateActivity" enabled="false" />
