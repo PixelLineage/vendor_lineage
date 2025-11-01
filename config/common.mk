@@ -316,6 +316,10 @@ $(call inherit-product, vendor/pixel/gms/products/gms.mk)
 # Pixel GSans
 $(call inherit-product, vendor/pixel/gsans/products/gsans.mk)
 
+# Dummy GSans Workaround
+PRODUCT_COPY_FILES += \
+    vendor/lineage/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
 # Pixel Launcher
 $(call inherit-product, vendor/pixel/launcher/products/launcher.mk)
 
