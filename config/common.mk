@@ -301,6 +301,8 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_frame
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/lineage/build/target/product/security/lineage
 
+WITH_GMS := true
+
 # Pixel Clocks
 $(call inherit-product, vendor/pixel/clocks/products/clocks.mk)
 
