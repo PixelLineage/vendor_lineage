@@ -299,6 +299,7 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/lineage/build/target/product/security/lineage
 
 $(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product, vendor/revanced/products/revanced.mk)
 include vendor/lineage/config/version.mk
 include vendor/lineage-priv/keys/keys.mk
 
