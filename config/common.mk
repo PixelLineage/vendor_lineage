@@ -317,6 +317,9 @@ $(call inherit-product, vendor/pixel/sounds/products/sounds.mk)
 # Pixel ThemePicker
 $(call inherit-product, vendor/pixel/themepicker/products/themepicker.mk)
 
+# Revanced
+$(call inherit-product, vendor/revanced/products/revanced.mk)
+
 include vendor/lineage/config/version.mk
 include vendor/lineage-priv/keys/keys.mk
 
