@@ -321,6 +321,9 @@ $(call inherit-product, vendor/pixel/themepicker/products/themepicker.mk)
 # Revanced
 $(call inherit-product, vendor/revanced/products/revanced.mk)
 
+# bluetooth propaganda
+PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES=vendor/lineage-priv/keys
+
 include vendor/lineage/config/version.mk
 include vendor/lineage-priv/keys/keys.mk
 
