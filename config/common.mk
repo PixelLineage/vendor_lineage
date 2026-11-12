@@ -45,6 +45,9 @@ endif
 
 # Disable extra StrictMode features on all non-engineering builds
 PRODUCT_PRODUCT_PROPERTIES += persist.sys.strictmode.disable=true
+
+# Disable RescueParty (moved to packages/modules/CrashRecovery in A17)
+PRODUCT_PRODUCT_PROPERTIES += persist.sys.disable_rescue=true
 endif
 
 # Backup Tool
